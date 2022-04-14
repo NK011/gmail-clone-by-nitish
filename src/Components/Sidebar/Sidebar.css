@@ -1,0 +1,23 @@
+.sidebar {
+  flex: 0.25;
+}
+
+.sidebar__compose {
+  margin: 1.5vh 1.5vw 0.7vh !important;
+  text-transform: capitalize !important;
+  border-radius: 5vw !important;
+  padding: 0.5vw !important;
+  box-shadow: 0 0.2vw 0.5vh -0.1vw !important;
+}
+
+.sidebar__options {
+  margin-top: 2vh;
+}
+
+.sidebar__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: grey;
+  padding: 5px;
+}

@@ -1,0 +1,21 @@
+.emailList {
+  flex: 1;
+}
+.emailList__settings {
+  display: flex;
+  justify-content: space-between !important;
+}
+
+.emailList__settingsRight {
+  position: absolute;
+  right: 1vw;
+}
+
+.emailList__section {
+  display: flex;
+}
+
+.emailList__row {
+  border-top: 7px solid rgba(128, 128, 128, 0.493);
+  border-left: 7px solid rgba(128, 128, 128, 0.493);
+}

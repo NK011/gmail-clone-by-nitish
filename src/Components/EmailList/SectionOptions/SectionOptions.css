@@ -1,0 +1,15 @@
+.section {
+  display: flex;
+  padding: 1vh 2vw;
+  justify-content: space-around;
+  width: auto;
+  cursor: pointer;
+  color: grey;
+  border-bottom: 3px solid transparent;
+}
+
+.section:hover {
+  background: whitesmoke;
+  border-bottom: 3px solid red;
+  color: red;
+}

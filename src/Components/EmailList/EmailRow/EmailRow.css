@@ -1,0 +1,51 @@
+.email {
+  display: flex;
+  align-items: center;
+  border: none;
+  outline: none;
+  border-bottom: 0.5px solid rgba(128, 128, 128, 0.356);
+}
+
+.email__options {
+  display: flex;
+  align-items: center;
+  color: grey;
+}
+
+.email__options > .MuiSvgIcon-root {
+  padding: 5px;
+}
+
+.email__info {
+  display: flex;
+  align-items: center;
+  margin: auto 2vw;
+  flex: 0.7;
+}
+
+.email__message {
+  display: flex;
+  align-items: center;
+  margin: auto 1vw;
+  color: grey;
+  text-overflow: ellipsis;
+}
+.email__message > span {
+  font-size: small;
+  padding: 1vh 0.2vw;
+  text-overflow: ellipsis;
+}
+
+.email__time {
+  color: grey;
+  font-size: small;
+}
+
+.email:hover {
+  background: whitesmoke;
+  box-shadow: 0px 1px 1px 1px grey;
+}
+
+.email__options > .MuiSvgIcon-root:hover {
+  color: gold;
+}
